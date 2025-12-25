@@ -12,19 +12,19 @@ from openai import OpenAI
 # 初始化模型客户端
 doubao_client = OpenAI(
     base_url="https://ark.cn-beijing.volces.com/api/v3",
-    api_key="a44785a4-cc83-4097-8906-4df873639e5c",
+    api_key="替换为你的api key",
     default_headers={"ark-beta-image-process": "true"}
 )
 
 qwen_client = OpenAI(
     base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
-    api_key="sk-c566575421a14a968638b7f47b2d57da"
+    api_key="替换为你的api key"
 )
 
 # 新增doubao-seed-1.8模型客户端
 doubao_client_18 = OpenAI(
     base_url="https://ark.cn-beijing.volces.com/api/v3",
-    api_key="a477907a-7541-46d4-856a-44963a8dd203",
+    api_key="替换为你的api key",
     default_headers={"ark-beta-image-process": "true"}
 )
 
